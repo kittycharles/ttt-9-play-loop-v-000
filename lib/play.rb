@@ -40,8 +40,7 @@ def play(board)
   turn(board) == 0
   loop do
   puts "X"
-  if turn(board) >= 9
-    break
+  until turn(board) == 9
   end
 end
 end
