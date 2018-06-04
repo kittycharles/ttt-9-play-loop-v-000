@@ -38,8 +38,7 @@ end
 # Define your play method below
 def play(board)
   turn(board) == 0
-  puts "X"
   until turn(board) == 9
+    puts "X"
   end
-end
 end
