@@ -40,3 +40,4 @@ def play(board)
 9.times do
   puts "X"
 end
+end
