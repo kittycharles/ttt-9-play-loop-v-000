@@ -37,11 +37,11 @@ end
 
 # Define your play method below
 def play(board)
-  turn(board) = 0
+  turn(board) == 0
   loop do
-  turn(board) += 1
+  turn(board) +== 1
   puts "X"
-  if turn(board) >= 9
+  if turn(board) >== 9
     break
   end
 end
