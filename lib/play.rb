@@ -40,7 +40,7 @@ def play(board)
   turn(board) == 0
   until turn(board) == 9
     puts "X"
-    turn(board) += 9
+    turn(board) += 1
   end
 end
 end
